@@ -19,7 +19,7 @@ export default () => (
     <Hero />
     <hr />
     <Summary />
-    <BlogSection />
     <hr />
+    <BlogSection />
   </div>
 )
