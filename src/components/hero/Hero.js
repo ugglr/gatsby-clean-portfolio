@@ -5,14 +5,23 @@ import { Jumbotron } from "react-bootstrap"
 import "./hero.css"
 
 const Hero = () => (
-  <Jumbotron className="jumbotron" fluid>
-    <h1>Hi, I'm a software developer from Sweden, living in China</h1>
-    <h2>I design, build, operate & hack together things on the internet</h2>
-    <p>
-      I hold an MSc. in Electrical Engineering and previously worked as an
-      Electronics Engineer
-    </p>
+  <Jumbotron style={jumbo_styles} className="jumbo" fluid>
+    <div className="jumbo_content">
+      <h1>
+        Hey, I'm an Software developer from Sweden, living in Hangzhou, China
+      </h1>
+      <br />
+      <h2>
+        Right now I'm using React.js and Gatsby.js to design and hack things
+        together on the internet.
+      </h2>
+    </div>
   </Jumbotron>
 )
+
+const jumbo_styles = {
+  backgroundColor: "#fff",
+  paddingLeft: "1.5rem",
+}
 
 export default Hero

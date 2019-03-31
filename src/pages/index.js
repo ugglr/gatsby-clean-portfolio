@@ -1,14 +1,25 @@
 import React from "react"
 import Hero from "../components/hero/Hero"
-import Navbar from "../components/navbar/Navbar"
+import MyNavbar from "../components/navbar/MyNavbar"
+import Summary from "../components/summary/Summary"
+import BlogSection from "../components/blogSection/BlogSection"
 
-//import bootstrap Styles
+//Use Nike Orange later as primary color
+//#FF6600
+
+//import bootstrap styles
 import "../bootstrap/css/bootstrap.min.css"
 
+//import my custom styles
+import "./index.css"
+
 export default () => (
-  <React.Fragment>
-    <Navbar />
+  <div className="App">
+    <MyNavbar />
     <Hero />
-    <div>Hello world!</div>
-  </React.Fragment>
+    <hr />
+    <Summary />
+    <BlogSection />
+    <hr />
+  </div>
 )
