@@ -9,7 +9,7 @@ import "./summary.css"
 const Summary = () => (
   <React.Fragment>
     <Container fluid>
-      <h3>Technologies most recent:</h3>
+      <h3>Most Recent Technologies:</h3>
       <br />
       <Row className="text-center">
         <Col>
@@ -88,20 +88,19 @@ const Summary = () => (
           <h4 className="hover_effect">Getting Things done</h4>
           <p>
             I absolutely hate wasting time on endless discussions that does not
-            bring the most amount of impact. I have seen the impact on a project
-            who dives too deep into details in action and as we all know, it's
-            not pretty. I am a big practitioner of ToDo-Lists, Agile
-            Methodologies and anything else that might elevate productivity
-            levels. Let's face it, our brains are lazy. It needs dicipline to
-            trick our brains to keep delivering, and I like to keep momentum up!
+            bring any real value. I have seen the impact on a project who dives
+            too deep into the details and, as we all know, it's not pretty. I am
+            a big practitioner of ToDo-Lists, Kanban, Agile/Scrum Methodologies
+            and anything else that might elevate productivity levels. Let's face
+            it, our brains are lazy. It needs dicipline to trick our brains to
+            keep delivering, and I like to keep the momentum up!
           </p>
         </Col>
       </Row>
       <br />
       <h4>
-        Please see my Projects page and GitHub to see what I'm currently working
-        on! I'm constantly experimenting with new things, give me a follow or
-        join the fun through the magic of open-source.
+        I'm constantly experimenting with new things, give me a follow or join
+        the fun through the magic of open-source on GitHub.
       </h4>
     </Container>
     <br />
