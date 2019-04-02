@@ -23,6 +23,9 @@ const MyNavbar = () => (
       <li className="float_right">
         <Link to="/about">About</Link>
       </li>
+      <li className="float_right">
+        <Link to="/">Home</Link>
+      </li>
     </ul>
   </div>
 )

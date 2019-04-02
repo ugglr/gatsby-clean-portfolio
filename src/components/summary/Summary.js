@@ -43,8 +43,8 @@ const Summary = () => (
       <br />
 
       <h4>
-        My biggest goal as an Engineer is to never stop learning. Here's a
-        couple of things I'm good at:
+        My biggest goal as an Engineer is to never stop learning, and work on
+        cool stuff. Here's a couple of things I'm good at:
       </h4>
       <Row style={{ marginTop: "1.8rem" }}>
         <Col>
