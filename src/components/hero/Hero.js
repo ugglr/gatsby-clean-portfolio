@@ -11,17 +11,17 @@ const Hero = () => (
         Hey, I'm an Software developer from Sweden, living in Hangzhou, China
       </h1>
       <br />
-      <h2>
+      <h3>
         Right now I'm using React.js and Gatsby.js to design and hack things
         together on the internet.
-      </h2>
+      </h3>
     </div>
   </Jumbotron>
 )
 
 const jumbo_styles = {
   backgroundColor: "#fff",
-  paddingLeft: "1.5rem",
+  paddingLeft: "1rem",
 }
 
 export default Hero

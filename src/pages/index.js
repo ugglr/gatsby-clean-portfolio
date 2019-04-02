@@ -1,6 +1,8 @@
 import React from "react"
+import Layout from "../components/layout/Layout"
+import SEO from "../components/Seo"
+
 import Hero from "../components/hero/Hero"
-import MyNavbar from "../components/navbar/MyNavbar"
 import Summary from "../components/summary/Summary"
 import Projects from "../components/projects/Projects"
 import BlogSection from "../components/blogSection/BlogSection"
@@ -16,13 +18,15 @@ import "./index.css"
 
 export default () => (
   <div className="App">
-    <MyNavbar />
-    <Hero />
-    <hr />
-    <Summary />
-    <hr />
-    <Projects />
-    <hr />
-    <BlogSection />
+    <Layout>
+      <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+      <Hero />
+      <hr />
+      <Summary />
+      <hr />
+      <Projects />
+      <hr />
+      <BlogSection />
+    </Layout>
   </div>
 )
