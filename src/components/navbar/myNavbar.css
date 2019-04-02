@@ -20,13 +20,13 @@ li {
 
 .float_left {
   float: left;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin-left: 1rem;
 }
 
 .float_right {
   float: right;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-right: 1rem;
 }
 
@@ -39,7 +39,7 @@ li a:hover {
   text-decoration: none;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 550px) {
   .float_left {
     font-size: 1rem;
   }

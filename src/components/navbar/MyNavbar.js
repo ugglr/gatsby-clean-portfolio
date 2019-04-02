@@ -6,7 +6,7 @@ import "./myNavbar.css"
 const MyNavbar = () => (
   <div style={{ marginBottom: "0px" }}>
     <ul className="nav_styles top_border">
-      <li className="float_left brand">Carl-W.</li>
+      <li className="float_left brand">Carl-W. Igelstroem</li>
       <li className="float_right">
         {/* eslint-disable-next-line */}
         <a

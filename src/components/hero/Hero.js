@@ -1,5 +1,5 @@
 import React from "react"
-import { Jumbotron } from "react-bootstrap"
+import { Jumbotron, Row, Col } from "react-bootstrap"
 
 //import custom styles
 import "./hero.css"
@@ -16,6 +16,31 @@ const Hero = () => (
         together on the internet.
       </h3>
     </div>
+    <Row className="jumbo_social">
+      <Col>
+        <i class="fab fa-github hover_effect" />
+      </Col>
+      <Col>
+        <i class="fab fa-linkedin hover_effect" />
+      </Col>
+      <Col>
+        <i class="fab fa-twitter hover_effect" />
+      </Col>
+
+      <Col>
+        <i class="fab fa-instagram hover_effect" />
+      </Col>
+
+      <Col>
+        <i class="fab fa-hackerrank hover_effect" />
+      </Col>
+      <Col>
+        <i class="fab fa-stack-overflow hover_effect" />
+      </Col>
+      <Col>
+        <i class="fab fa-angellist hover_effect" />
+      </Col>
+    </Row>
   </Jumbotron>
 )
 

@@ -11,6 +11,12 @@
 }
 .jumbo_content {
   margin-top: 6.5rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
+}
+
+.jumbo_social {
+  margin-top: 6rem;
+}
+
+.jumbo_social i {
+  font-size: 2rem;
 }
