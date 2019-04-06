@@ -1,0 +1,58 @@
+.project_container {
+  border-style: solid;
+  border-color: #f0f0f0;
+  border-radius: 0.5rem;
+  padding-top: 0.4rem;
+  padding-left: 0.4rem;
+  padding-bottom: 0.4rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+img {
+  border-radius: 0.5rem;
+}
+
+h4 small {
+  font-size: 0.9rem;
+  text-decoration: underline;
+}
+
+a {
+  color: purple;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:link:hover {
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+.button_styles {
+  border-style: solid;
+  padding: 3px;
+  border-radius: 1rem;
+}
+
+@media (max-width: 550px) {
+  .project_container {
+    font-size: 0.8rem;
+  }
+
+  .project_container h4 {
+    font-size: 1.4rem;
+  }
+
+  .button_styles {
+    margin-bottom: 0.5rem;
+  }
+}

@@ -5,7 +5,6 @@ import SEO from "../components/Seo"
 import Hero from "../components/hero/Hero"
 import Summary from "../components/summary/Summary"
 import Projects from "../components/projects/Projects"
-import BlogSection from "../components/blogSection/BlogSection"
 
 //Use Nike Orange later as primary color, it's dope together with white
 //#FF6600
@@ -26,7 +25,6 @@ export default () => (
       <hr />
       <Projects />
       <hr />
-      <BlogSection />
     </Layout>
   </div>
 )

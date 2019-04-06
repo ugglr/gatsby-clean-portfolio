@@ -3,3 +3,11 @@
 .App {
   font-family: "Roboto", sans-serif;
 }
+
+a {
+  color: purple;
+}
+
+a:hover {
+  color: black;
+}

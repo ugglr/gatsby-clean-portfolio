@@ -1,3 +1,30 @@
 .hover_effect:hover {
   color: purple;
 }
+
+.content {
+  margin-bottom: 2.5rem;
+}
+
+.tech_icons i {
+  font-size: 5rem;
+}
+
+.tech_icons span {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 450px) {
+  .tech_icons i {
+    font-size: 6.6rem;
+  }
+
+  .tech_icons span {
+    font-size: 1.35rem;
+    color: purple;
+  }
+
+  .goal_text {
+    font-size: 1.4rem;
+  }
+}
