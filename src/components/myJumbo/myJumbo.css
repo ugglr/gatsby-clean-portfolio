@@ -3,6 +3,7 @@
 }
 
 .jumbo h1 {
+  margin-bottom: 3rem;
   line-height: 125%;
 }
 
@@ -15,6 +16,8 @@
 }
 .jumbo_content {
   margin-top: 6.5rem;
+  width: 100%;
+  padding: 1rem;
 }
 
 .jumbo_content p {

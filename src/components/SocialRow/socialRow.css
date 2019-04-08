@@ -1,5 +1,6 @@
 .jumbo_social {
   max-width: 100%;
+  margin-top: 4rem;
 }
 
 .jumbo_social i {
@@ -17,17 +18,5 @@ a:link {
 @media (max-width: 550px) {
   .jumbo_social i {
     font-size: 1.6rem;
-  }
-
-  .jumbo h1 {
-    font-size: 2rem;
-  }
-
-  .jumbo h3 {
-    font-size: 1.4rem;
-  }
-
-  .jumbo_content p {
-    font-size: 1.25rem;
   }
 }

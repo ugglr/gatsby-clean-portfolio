@@ -1,8 +1,9 @@
 import React from "react"
-import { Jumbotron, Row, Col } from "react-bootstrap"
+import { Jumbotron } from "react-bootstrap"
 
 //import custom styles
 import "./hero.css"
+import SocialRow from "../SocialRow/SocialRow"
 
 const Hero = () => (
   <Jumbotron style={jumbo_styles} className="jumbo" fluid>
@@ -26,71 +27,7 @@ const Hero = () => (
         <span style={{ color: "purple" }}>carl.igelstrom@gmail.com</span>
       </p>
     </div>
-    <Row className="jumbo_social text-center">
-      <Col>
-        <a
-          style={{ color: "#000" }}
-          href="https://www.github.com/ugglr"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-github hover_effect" />
-        </a>
-      </Col>
-      <Col>
-        <a
-          style={{ color: "#000" }}
-          href="https://www.linkedin.com/in/igelstrom"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-linkedin hover_effect" />
-        </a>
-      </Col>
-      <Col>
-        <a
-          style={{ color: "#000" }}
-          href="https://twitter.com/real_carlw"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-twitter hover_effect" />
-        </a>
-      </Col>
-
-      <Col>
-        <a
-          style={{ color: "#000" }}
-          href="https://www.instagram.com/hangzhouist/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-instagram hover_effect" />
-        </a>
-      </Col>
-
-      <Col>
-        <a
-          style={{ color: "#000" }}
-          className="hover_effect"
-          href="https://www.hackerrank.com/carl_igelstrom"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-hackerrank hover_effect" />
-        </a>
-      </Col>
-      <Col>
-        <a
-          style={{ color: "#000" }}
-          href="https://angel.co/igelstroem"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-angellist hover_effect" />
-        </a>
-      </Col>
-    </Row>
+    <SocialRow />
   </Jumbotron>
 )
 

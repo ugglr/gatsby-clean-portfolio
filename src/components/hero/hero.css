@@ -21,28 +21,7 @@
   font-size: 1.5rem;
 }
 
-.jumbo_social {
-  margin-top: 6rem;
-  max-width: 100%;
-}
-
-.jumbo_social i {
-  font-size: 2rem;
-}
-
-a:link {
-  color: black;
-}
-
-.hover_effect:hover {
-  color: purple;
-}
-
 @media (max-width: 550px) {
-  .jumbo_social i {
-    font-size: 1.6rem;
-  }
-
   .jumbo h1 {
     font-size: 2rem;
   }
