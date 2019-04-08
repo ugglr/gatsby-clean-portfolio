@@ -1,0 +1,22 @@
+.jumbo {
+  min-height: 30rem;
+}
+
+.jumbo h1 {
+  line-height: 125%;
+}
+
+.jumbo h2 {
+  font-size: 2rem;
+}
+
+.jumbo h3 {
+  font-size: 1.7rem;
+}
+.jumbo_content {
+  margin-top: 6.5rem;
+}
+
+.jumbo_content p {
+  font-size: 1.5rem;
+}

@@ -1,33 +1,14 @@
 import React from "react"
 import Layout from "../components/layout/Layout"
+import MyJumbo from "../components/myJumbo/MyJumbo"
 
 import "../fontawesome/css/all.min.css"
 
-import { Container, Row, Jumbotron, Col, Button } from "react-bootstrap"
+import { Container, Row, Col } from "react-bootstrap"
 
 export default () => (
   <Layout>
-    <Jumbotron fluid style={jumbo_styles}>
-      <Row style={{ marginTop: "3.5rem" }}>
-        <Col>
-          <h1>tldr; About me.</h1>
-          <span>
-            <p>
-              So you are looking for a professional, communicative & punctual
-              software engineer who likes to keep productive.
-            </p>
-          </span>
-        </Col>
-      </Row>
-      <Row style={{ marginTop: "3.5rem" }}>
-        <Col>
-          <Button variant="primary">English CV download</Button>
-        </Col>
-        <Col>
-          <Button variant="primary">Chinese CV download</Button>
-        </Col>
-      </Row>
-    </Jumbotron>
+    <MyJumbo />
     <hr />
     <Container fluid>
       <Row>
@@ -69,8 +50,7 @@ export default () => (
             software engineering side to things, and on my free time to fill the
             gap I had at work I was studying how to code. I spent many hours at
             teamtreehouse.com, freecodecamp, codecademy, Udemy. I realized that
-            I want to change direction into what I was working towards on my own
-            time.
+            I wanted to change direction into coding.
             <br />
             <br />
             Fast forward: This year in January my son turned 3 years old, I quit
@@ -78,54 +58,7 @@ export default () => (
             were missing the fast paced life, and I had to change path before
             getting to comfortable in something I’m not passionate about.
             <br />
-            <br />
-            <strong>My goals for this year: </strong>
-            Break into software engineering and finish my Bachelor in mandarin
-            chinese.
           </p>
-        </Col>
-      </Row>
-      <hr />
-      <Row>
-        <Col>
-          <h5>Social:</h5>
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-          <i class="fab fa-github hover_effect" style={icon_style} />
-          <br />
-          <span style={font_size}>Github</span>
-        </Col>
-        <Col>
-          <i class="fab fa-linkedin hover_effect" style={icon_style} />
-          <br />
-          <span style={font_size}>LinkedIn</span>
-        </Col>
-        <Col>
-          <i class="fab fa-twitter hover_effect" style={icon_style} />
-          <br />
-          <span style={font_size}>Twitter</span>
-        </Col>
-        <Col>
-          <i class="fab fa-instagram hover_effect" style={icon_style} />
-          <br />
-          <span style={font_size}>Instagram</span>
-        </Col>
-        <Col>
-          <i class="fab fa-hackerrank hover_effect" style={icon_style} />
-          <br />
-          <span style={font_size}>Hackerrank</span>
-        </Col>
-        <Col>
-          <i class="fab fa-stack-overflow hover_effect" style={icon_style} />
-          <br />
-          <span style={font_size}>Stackoverflow</span>
-        </Col>
-        <Col>
-          <i class="fab fa-angellist hover_effect" style={icon_style} />
-          <br />
-          <span style={font_size}>Angellist</span>
         </Col>
       </Row>
       <hr />
@@ -270,18 +203,3 @@ export default () => (
     </Container>
   </Layout>
 )
-
-const jumbo_styles = {
-  backgroundColor: "#fff",
-  paddingLeft: "1rem",
-  marginTop: "3rem",
-  height: "22rem",
-}
-
-const icon_style = {
-  fontSize: "5.5rem",
-}
-
-const font_size = {
-  fontSize: "1.2rem",
-}

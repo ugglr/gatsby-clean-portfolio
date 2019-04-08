@@ -82,7 +82,7 @@ const Footer = () => (
 
         <Col>
           <a
-            href="https://www.instagram.com"
+            href="https://www.instagram.com/hangzhouist/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -93,7 +93,7 @@ const Footer = () => (
         <Col>
           <a
             className="hover_effect"
-            href="https://www.hackerrank.com"
+            href="https://www.hackerrank.com/carl_igelstrom"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -102,16 +102,7 @@ const Footer = () => (
         </Col>
         <Col>
           <a
-            href="https://www.stackoverflow.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fab fa-stack-overflow hover_effect" />
-          </a>
-        </Col>
-        <Col>
-          <a
-            href="https://www.angel.co"
+            href="https://angel.co/igelstroem"
             target="_blank"
             rel="noopener noreferrer"
           >

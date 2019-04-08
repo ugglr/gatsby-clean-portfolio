@@ -50,7 +50,7 @@ const Hero = () => (
       <Col>
         <a
           style={{ color: "#000" }}
-          href="https://www.twitter.com"
+          href="https://twitter.com/real_carlw"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -61,7 +61,7 @@ const Hero = () => (
       <Col>
         <a
           style={{ color: "#000" }}
-          href="https://www.instagram.com"
+          href="https://www.instagram.com/hangzhouist/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -73,7 +73,7 @@ const Hero = () => (
         <a
           style={{ color: "#000" }}
           className="hover_effect"
-          href="https://www.hackerrank.com"
+          href="https://www.hackerrank.com/carl_igelstrom"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -83,17 +83,7 @@ const Hero = () => (
       <Col>
         <a
           style={{ color: "#000" }}
-          href="https://www.stackoverflow.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-stack-overflow hover_effect" />
-        </a>
-      </Col>
-      <Col>
-        <a
-          style={{ color: "#000" }}
-          href="https://www.angel.co"
+          href="https://angel.co/igelstroem"
           target="_blank"
           rel="noopener noreferrer"
         >

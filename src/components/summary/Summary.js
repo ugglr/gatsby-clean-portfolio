@@ -8,7 +8,7 @@ import "./summary.css"
 
 const Summary = () => (
   <Container className="content" fluid>
-    <h3>Icon to catch your attention:</h3>
+    <h3>Recent Tech:</h3>
     <br />
     <Row className="text-center tech_icons">
       <Col>
