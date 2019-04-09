@@ -5,7 +5,7 @@ import "./projects.css"
 
 import ProjectCard from "../portProjectCard/ProjectCard"
 
-import image from "../../images/portfolio/16by9/boendekostnad.png"
+import image from "../../images/portfolio/16by9/boendekostnad.jpg"
 
 const Projects = () => (
   <React.Fragment>

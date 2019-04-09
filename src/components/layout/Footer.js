@@ -35,19 +35,19 @@ const Footer = () => (
         </Col>
       </Row>
       <Row>
-        <Col xs={2} className="hover_effect" style={{ fontSize: "1.3rem" }}>
-          <Link to="/" className="link_styles">
-            Home
+        <Col xs={2} style={{ fontSize: "1.3rem" }}>
+          <Link to="/">
+            <span className="link_styles">Home</span>
           </Link>
         </Col>
-        <Col xs={2} className="hover_effect" style={{ fontSize: "1.3rem" }}>
-          <Link to="/about" className="link_styles">
-            About
+        <Col xs={2} style={{ fontSize: "1.3rem" }}>
+          <Link to="/about">
+            <span className="link_styles">About</span>
           </Link>
         </Col>
-        <Col xs={2} className="hover_effect" style={{ fontSize: "1.3rem" }}>
-          <Link to="/projects" className="link_styles">
-            Projects
+        <Col xs={2} style={{ fontSize: "1.3rem" }}>
+          <Link to="/projects">
+            <span className="link_styles">Projects</span>
           </Link>
         </Col>
       </Row>
@@ -121,9 +121,9 @@ const Footer = () => (
               fontSize: "1.5rem",
             }}
           />
-          <a className="blueViolet" href="https://www.gatsbyjs.org">
+          <a href="https://www.gatsbyjs.org">
             {" "}
-            & Gatsby
+            <span className="blueViolet">& Gatsby</span>
           </a>
         </Col>
       </Row>

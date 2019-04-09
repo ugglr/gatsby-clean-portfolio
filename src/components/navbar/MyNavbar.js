@@ -14,7 +14,7 @@ const MyNavbar = () => (
       }}
     >
       <ul className="nav_styles">
-        <li className="float_left brand">
+        <li className="float_left">
           <i className="fas fa-frog" />
         </li>
         <li className="float_right">
@@ -23,18 +23,25 @@ const MyNavbar = () => (
             href="https://www.github.com/ugglr"
             target="_blank"
             rel="noopener noreferrer"
+            className="menu_link"
           >
             GitHub
           </a>
         </li>
         <li className="float_right">
-          <Link to="/projects">Projects</Link>
+          <Link to="/projects" className="menu_link">
+            Projects
+          </Link>
         </li>
         <li className="float_right">
-          <Link to="/about">About</Link>
+          <Link to="/about" className="menu_link">
+            About
+          </Link>
         </li>
         <li className="float_right">
-          <Link to="/">Home</Link>
+          <Link to="/" className="menu_link">
+            Home
+          </Link>
         </li>
       </ul>
     </div>

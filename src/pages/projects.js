@@ -6,10 +6,10 @@ import ProjectCard from "../components/portProjectCard/ProjectCard"
 
 import "./index.css"
 
-import livingCalcPicture from "../images/portfolio/16by9/boendekostnad.png"
-import imageSearchAppPicture from "../images/portfolio/16by9/image-search.png"
-import weatherAppPicture from "../images/portfolio/16by9/weather-app.png"
-import saveTweetAppPicture from "../images/portfolio/16by9/save_tweet.png"
+import livingCalcPicture from "../images/portfolio/16by9/boendekostnad.jpg"
+import imageSearchAppPicture from "../images/portfolio/16by9/image-search.jpg"
+import weatherAppPicture from "../images/portfolio/16by9/weather-app.jpg"
+import saveTweetAppPicture from "../images/portfolio/16by9/save_tweet.jpg"
 
 /*######### PROJECT OBJECTS TEMPLATE################
 import projectPicture from ""

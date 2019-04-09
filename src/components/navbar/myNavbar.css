@@ -18,10 +18,6 @@ li {
   margin-top: 0.5rem;
 }
 
-li a {
-  color: black;
-}
-
 .float_left {
   float: left;
   font-size: 2rem;
@@ -35,16 +31,15 @@ li a {
   margin-top: 1.5rem;
 }
 
-li a {
-  color: #000;
-}
-
-li a:hover {
-  color: blueviolet;
-  text-decoration: none;
-}
-
 i:hover {
+  color: blueviolet;
+}
+
+.menu_link {
+  color: black;
+}
+
+.menu_link:hover {
   color: blueviolet;
 }
 

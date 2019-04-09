@@ -9,7 +9,7 @@ const Hero = () => (
   <Jumbotron style={jumbo_styles} className="jumbo" fluid>
     <div className="jumbo_content">
       <h1>
-        Hey, I'm an Software developer from Sweden, living in Hangzhou, China
+        Hey, I'm a Software developer from Sweden, living in Hangzhou, China.
       </h1>
       <br />
       <h3>
@@ -19,7 +19,9 @@ const Hero = () => (
       <p>Have a project you'd like to discuss?</p>
       <p>
         Let's chat{" "}
-        <span style={{ color: "blueviolet" }}>carl.igelstrom@gmail.com</span>
+        <a href="mailto:carl.igelstrom@gmail.com">
+          <span style={{ color: "blueviolet" }}>carl.igelstrom@gmail.com</span>
+        </a>
       </p>
     </div>
     <div>

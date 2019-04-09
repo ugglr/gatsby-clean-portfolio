@@ -1,5 +1,5 @@
 .jumbo {
-  height: 96vh;
+  height: 80vh;
 }
 
 .jumbo h1 {
@@ -17,7 +17,7 @@
 }
 .jumbo_content {
   margin-top: 6.5rem;
-  margin-bottom: 10rem;
+  margin-bottom: 6rem;
   width: 100%;
 }
 
