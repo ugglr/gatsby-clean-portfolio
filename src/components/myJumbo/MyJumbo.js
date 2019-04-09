@@ -1,7 +1,7 @@
 import React from "react"
 import SocialRow from "../SocialRow/SocialRow"
 
-import { Jumbotron, Row, Col } from "react-bootstrap"
+import { Jumbotron } from "react-bootstrap"
 
 import "./myJumbo.css"
 
@@ -11,8 +11,8 @@ body: The body of the Jumbotron
 */
 
 const MyJumbo = props => (
-  <Jumbotron fluid className="jumbo" style={jumbo_styles}>
-    <div className="jumbo_content">
+  <Jumbotron fluid className="myjumbo" style={myjumbo_styles}>
+    <div className="myjumbo_content">
       <h1>{props.title}</h1>
       <span>
         <p>{props.body}</p>
@@ -22,7 +22,7 @@ const MyJumbo = props => (
   </Jumbotron>
 )
 
-const jumbo_styles = {
+const myjumbo_styles = {
   backgroundColor: "#fff",
 }
 

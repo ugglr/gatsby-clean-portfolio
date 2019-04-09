@@ -1,30 +1,26 @@
 import React from "react"
 import Layout from "../components/layout/Layout"
 import MyJumbo from "../components/myJumbo/MyJumbo"
+import MyButton from "../components/myButton/MyButton"
 
 import "../fontawesome/css/all.min.css"
 
-import { Container, Row, Col, Button } from "react-bootstrap"
+import { Container, Row, Col } from "react-bootstrap"
 
 export default () => (
   <Layout>
-    
-    <MyJumbo 
-    body={"So you are looking for a professional, communicative & punctual software engineer who likes to keep productive."}
-    title={"tldr; About me."}
+    <MyJumbo
+      body={
+        "So you are looking for a professional, communicative & punctual software engineer who likes to keep productive."
+      }
+      title={"tldr; About me."}
     />
     <hr />
     <Container fluid>
-        <Row style={{ marginTop: "3.5rem" }}>
-      <Col xs={5}>
-        {/*TODO: Change these buttons to my own components*/}
-        <Button variant="primary">English CV download</Button>
-      </Col>
-      <Col xs={5}>
-        {/*TODO: Change these buttons to my own components*/}
-        <Button variant="primary">Chinese CV download</Button>
-      </Col>
-    </Row>
+      <Row style={{ marginTop: "2rem", marginBottom: "1.5rem" }}>
+        <MyButton text={"English CV download"} URL={""} />
+        <MyButton text={"Chinese CV download"} URL={""} />
+      </Row>
       <Row>
         <Col>
           <h3>Summary</h3>

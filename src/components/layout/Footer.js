@@ -11,7 +11,7 @@ const Footer = () => (
     <Container style={{ maxWidth: "960px" }}>
       <Row>
         <Col>
-          <h3>Carl-Wilhelm Igelstroem</h3>
+          <h3>Carl-W. Igelstroem</h3>
           <p style={{ color: "purple", fontSize: "1.3rem" }}>
             carl.igelstrom@gmail.com
           </p>

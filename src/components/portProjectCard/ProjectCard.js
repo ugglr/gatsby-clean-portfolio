@@ -2,6 +2,7 @@ import React from "react"
 import { Row, Col } from "react-bootstrap"
 
 import "./projectCard.css"
+import MyButton from "../myButton/MyButton"
 
 //Props:
 //imageSrcPath: the path to the image used
@@ -32,16 +33,8 @@ const ProjectCard = props => {
           <p>{props.description}</p>
 
           <Row>
-            <Col sm={5}>
-              <a href={props.sourceURL}>
-                <div className="button_styles text-center">Source Code</div>
-              </a>
-            </Col>
-            <Col sm={5}>
-              <a href={props.hostedURL}>
-                <div className="button_styles text-center">Hosted App</div>
-              </a>
-            </Col>
+            <MyButton text={"Source Code"} URL={props.sourceURL} />
+            <MyButton text={"Hosted App"} URL={props.hostedURL} />
           </Row>
         </Col>
       </Row>

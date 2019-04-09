@@ -1,25 +1,25 @@
-.jumbo {
+.myjumbo {
   min-height: 30rem;
 }
 
-.jumbo h1 {
-  margin-bottom: 3rem;
+.myjumbo h1 {
+  margin-bottom: 3.5rem;
   line-height: 125%;
 }
 
-.jumbo h2 {
+.myjumbo h2 {
   font-size: 2rem;
 }
 
-.jumbo h3 {
+.myjumbo h3 {
   font-size: 1.7rem;
 }
-.jumbo_content {
+.myjumbo_content {
   margin-top: 6.5rem;
   width: 100%;
   padding: 1rem;
 }
 
-.jumbo_content p {
+.myjumbo_content p {
   font-size: 1.5rem;
 }

@@ -18,7 +18,7 @@ import "./index.css"
 export default () => (
   <div className="App">
     <Layout>
-      <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+      <SEO title="Carl-W Software Developer" keywords={[`gatsby`, `application`, `react`,`software developer`, `portfolio Site`, `material-UI`, `react-bootstrap`, `boostrap`, `API calling`, `Axios`, `Fetch`, `Javascript`, `Frontend Developer`]} />
       <Hero />
       <hr />
       <Summary />
