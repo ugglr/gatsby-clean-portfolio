@@ -7,19 +7,29 @@ import "../fontawesome/css/all.min.css"
 
 import { Container, Row, Col } from "react-bootstrap"
 
+import CV from "../files/cv/CV.pdf"
+import courses from "../files/cv/Complete List of Courses.pdf"
+import CN_CV from "../files/cv/CV_chinese.pdf"
+import CN_courses from "../files/cv/电机工程硕士所修课程.pdf"
+
 export default () => (
   <Layout>
     <MyJumbo
       body={
         "So you are looking for a professional, communicative & punctual software engineer who likes to keep productive."
       }
+      body2={"I also speak pretty good Mandarin if that's... needed."}
       title={"tldr; About me."}
     />
     <hr />
     <Container fluid>
       <Row style={{ marginTop: "2rem", marginBottom: "1.5rem" }}>
-        <MyButton text={"English CV download"} URL={""} />
-        <MyButton text={"Chinese CV download"} URL={""} />
+        <MyButton text={"English CV download"} URL={CV} />
+        <MyButton text={"University Course list"} URL={courses} />
+      </Row>
+      <Row style={{ marginTop: "2rem", marginBottom: "1.5rem" }}>
+        <MyButton text={"中文简历"} URL={CN_CV} />
+        <MyButton text={"电机工程硕士所修课程"} URL={CN_courses} />
       </Row>
       <Row>
         <Col>

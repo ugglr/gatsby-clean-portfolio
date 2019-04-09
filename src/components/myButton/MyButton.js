@@ -9,8 +9,8 @@ import "./myButton.css"
 //URL: the link the button goes to
 
 const MyButton = props => (
-  <Col sm={5}>
-    <a href={props.URL}>
+  <Col sm={6}>
+    <a href={props.URL} target="_blank" rel="noopener noreferrer">
       <div className="button_styles text-center">{props.text}</div>
     </a>
   </Col>

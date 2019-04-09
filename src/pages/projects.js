@@ -40,7 +40,8 @@ const imageSearchAppProject = {
   decription:
     "This app uses Axios to search Pixabay API for images, and displays them in a grid below. Also uses Material-UI pre-built components for some styling.",
   sourceURL: "https://github.com/ugglr/React-Image-Search-API-app",
-  hostedURL: "",
+  hostedURL:
+    "https://www.carlw.se/portfolioSites/react-image-search-app/index.html",
 }
 
 //Weather app Project
@@ -51,7 +52,7 @@ const weatherAppProject = {
   decription:
     "This app uses async-await + fetch to grab weather data from openweathermap.org open API. Bootstrap 4 CSS classes are used for styling",
   sourceURL: "https://github.com/ugglr/react-API-weather-app",
-  hostedURL: "",
+  hostedURL: "https://www.carlw.se/portfolioSites/react-weather-app/index.html",
 }
 
 //Save Tweet app Project
@@ -63,7 +64,8 @@ const saveTweetProject = {
     "Vanilla Javascript application which saves & removes strings into/from the browsers Local Storage. Bootstrap CSS file is used for styling purposes.",
   sourceURL:
     "https://github.com/ugglr/JavaScript-Webapp-Read-Write-to-local-storage",
-  hostedURL: "",
+  hostedURL:
+    "https://www.carlw.se/portfolioSites/JavaScript-Webapp-Read-Write-to-local-storage/index.html",
 }
 
 export default () => (

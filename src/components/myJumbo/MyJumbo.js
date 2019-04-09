@@ -8,6 +8,7 @@ import "./myJumbo.css"
 /*########### PROPS ########## 
 title: The title of the jumbotron
 body: The body of the Jumbotron
+body2: 
 */
 
 const MyJumbo = props => (
@@ -16,6 +17,9 @@ const MyJumbo = props => (
       <h1>{props.title}</h1>
       <span>
         <p>{props.body}</p>
+      </span>
+      <span>
+        <p>{props.body2}</p>
       </span>
       <SocialRow />
     </div>

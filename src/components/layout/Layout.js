@@ -9,9 +9,11 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
-import "./layout.css"
+import SEO from "../Seo"
 import MyNavbar from "../navbar/MyNavbar"
 import Footer from "./Footer"
+
+import "./layout.css"
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -26,6 +28,24 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
+        <SEO
+          title="Carl-W Software Developer"
+          keywords={[
+            `gatsby`,
+            `application`,
+            `react`,
+            `software developer`,
+            `portfolio Site`,
+            `material-UI`,
+            `react-bootstrap`,
+            `boostrap`,
+            `API calling`,
+            `Axios`,
+            `Fetch`,
+            `Javascript`,
+            `Frontend Developer`,
+          ]}
+        />
         <MyNavbar />
         <div
           style={{

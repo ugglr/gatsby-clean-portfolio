@@ -85,7 +85,7 @@ SEO.defaultProps = {
   lang: `en`,
   meta: [],
   keywords: [],
-  description: ``,
+  description: `Welcome to my portfolio page! I'm a Software Developer mainly focusing on the front-end with Javascript and React.js.`,
 }
 
 SEO.propTypes = {
