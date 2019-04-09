@@ -25,10 +25,12 @@ const Projects = () => (
         description={
           "While I was buying my apartment in Sweden, I always made the calculations by hand because I could not find a calculator that gave the whole picture. Tools: create-react-app; Bootstrap4; Material-UI"
         }
-        sourceURL={"/"}
-        hostedURL={"/"}
+        sourceURL={"https://github.com/ugglr/boendekostnad-nu"}
+        hostedURL={"http://www.boendekostnad.nu"}
       />
-      <Link to="/projects">Go to Projects page ----></Link>
+      <Link to="/projects" className="blueViolet">
+        Go to Projects page ---->
+      </Link>
     </Container>
   </React.Fragment>
 )

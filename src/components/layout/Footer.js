@@ -12,7 +12,7 @@ const Footer = () => (
       <Row>
         <Col>
           <h3>Carl-W. Igelstroem</h3>
-          <p style={{ color: "purple", fontSize: "1.3rem" }}>
+          <p style={{ color: "blueviolet", fontSize: "1.3rem" }}>
             carl.igelstrom@gmail.com
           </p>
           <br />
@@ -121,7 +121,10 @@ const Footer = () => (
               fontSize: "1.5rem",
             }}
           />
-          <a href="https://www.gatsbyjs.org"> & Gatsby</a>
+          <a className="blueViolet" href="https://www.gatsbyjs.org">
+            {" "}
+            & Gatsby
+          </a>
         </Col>
       </Row>
     </Container>

@@ -3,21 +3,10 @@
   padding: 3px;
   border-radius: 1rem;
   margin-bottom: 3px;
+  color: blueviolet;
 }
 
-a {
-  color: purple;
-}
-
-a:link {
-  text-decoration: none;
-}
-
-a:link:hover {
-  text-decoration: none;
-}
-
-a:hover {
+.button_styles:hover {
   color: black;
 }
 

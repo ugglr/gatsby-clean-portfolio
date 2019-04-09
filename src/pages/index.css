@@ -4,8 +4,8 @@
   font-family: "Roboto", sans-serif;
 }
 
-a {
-  color: purple;
+a:link {
+  color: blueviolet;
 }
 
 a:hover {

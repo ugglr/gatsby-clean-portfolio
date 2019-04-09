@@ -13,8 +13,6 @@ import SEO from "../Seo"
 import MyNavbar from "../navbar/MyNavbar"
 import Footer from "./Footer"
 
-import "./layout.css"
-
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`

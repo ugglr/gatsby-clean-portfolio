@@ -1,6 +1,5 @@
 .jumbo {
-  min-height: 30rem;
-  height: 100vh;
+  height: 96vh;
 }
 
 .jumbo h1 {
@@ -13,10 +12,13 @@
 
 .jumbo h3 {
   font-size: 1.7rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
 }
 .jumbo_content {
   margin-top: 6.5rem;
-  margin-bottom: 13rem;
+  margin-bottom: 10rem;
+  width: 100%;
 }
 
 .jumbo_content p {
@@ -24,12 +26,22 @@
 }
 
 @media (max-width: 550px) {
+  .jumbo {
+    height: 36rem;
+  }
   .jumbo h1 {
-    font-size: 2rem;
+    margin-top: 4rem;
+    font-size: 1.75rem;
   }
 
   .jumbo h3 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+  }
+
+  .jumbo_content {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
   }
 
   .jumbo_content p {

@@ -12,22 +12,19 @@ const Hero = () => (
         Hey, I'm an Software developer from Sweden, living in Hangzhou, China
       </h1>
       <br />
-      <h3
-        style={{
-          marginTop: "2rem",
-          marginBottom: "6rem",
-        }}
-      >
+      <h3>
         Right now I'm using Javascript, Node.js, React.js and Gatsby.js to
         design and hack things together on the internet.
       </h3>
       <p>Have a project you'd like to discuss?</p>
       <p>
         Let's chat{" "}
-        <span style={{ color: "purple" }}>carl.igelstrom@gmail.com</span>
+        <span style={{ color: "blueviolet" }}>carl.igelstrom@gmail.com</span>
       </p>
     </div>
-    <SocialRow />
+    <div>
+      <SocialRow />
+    </div>
   </Jumbotron>
 )
 

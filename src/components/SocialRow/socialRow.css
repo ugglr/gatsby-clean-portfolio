@@ -12,7 +12,7 @@ a:link {
 }
 
 .hover_effect:hover {
-  color: purple;
+  color: blueviolet;
 }
 
 @media (max-width: 550px) {

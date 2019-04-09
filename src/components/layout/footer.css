@@ -22,7 +22,7 @@ a:link {
 }
 
 .hover_effect:hover {
-  color: purple;
+  color: blueviolet;
 }
 
 .link_styles {
@@ -30,7 +30,15 @@ a:link {
 }
 
 .link_styles:hover {
-  color: purple;
+  color: blueviolet;
+}
+
+.blueViolet {
+  color: blueviolet;
+}
+
+.blueViolet:hover {
+  color: white;
 }
 
 @media (max-width: 550px) {

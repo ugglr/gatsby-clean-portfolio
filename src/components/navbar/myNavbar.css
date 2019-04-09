@@ -18,6 +18,10 @@ li {
   margin-top: 0.5rem;
 }
 
+li a {
+  color: black;
+}
+
 .float_left {
   float: left;
   font-size: 2rem;
@@ -36,12 +40,12 @@ li a {
 }
 
 li a:hover {
-  color: purple;
+  color: blueviolet;
   text-decoration: none;
 }
 
 i:hover {
-  color: purple;
+  color: blueviolet;
 }
 
 @media (max-width: 630px) {
