@@ -8,7 +8,7 @@ export default () => (
     <Col>
       <a
         style={{ color: "#000" }}
-        href="https://www.github.com/ugglr"
+        href="https://www.github.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -18,7 +18,7 @@ export default () => (
     <Col>
       <a
         style={{ color: "#000" }}
-        href="https://www.linkedin.com/in/igelstrom"
+        href="https://www.linkedin.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -28,7 +28,7 @@ export default () => (
     <Col>
       <a
         style={{ color: "#000" }}
-        href="https://twitter.com/real_carlw"
+        href="https://twitter.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -39,7 +39,7 @@ export default () => (
     <Col>
       <a
         style={{ color: "#000" }}
-        href="https://www.instagram.com/hangzhouist/"
+        href="https://www.instagram.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -51,7 +51,7 @@ export default () => (
       <a
         style={{ color: "#000" }}
         className="hover_effect"
-        href="https://www.hackerrank.com/carl_igelstrom"
+        href="https://www.hackerrank.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -61,7 +61,7 @@ export default () => (
     <Col>
       <a
         style={{ color: "#000" }}
-        href="https://angel.co/igelstroem"
+        href="https://angel.co/"
         target="_blank"
         rel="noopener noreferrer"
       >
