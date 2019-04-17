@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/gatsby-clean-portfolio",
   siteMetadata: {
     title: `John Doe - Software Developer`,
     description: `Add you meta Description here!`,
@@ -47,7 +48,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
+        name: `gatsby-clean-default`,
         short_name: `starter`,
         start_url: `/`,
         background_color: `#663399`,

@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
@@ -14,7 +15,7 @@
   },
   "dependencies": {
     "boostrap": "^2.0.0",
-    "gatsby": "^2.3.3",
+    "gatsby": "^2.3.24",
     "gatsby-plugin-favicon": "^3.1.6",
     "gatsby-plugin-google-analytics": "^2.0.18",
     "gatsby-plugin-manifest": "^2.0.26",
@@ -28,6 +29,7 @@
     "react-helmet": "^5.2.0"
   },
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "prettier": "^1.16.4"
   },
   "repository": {
