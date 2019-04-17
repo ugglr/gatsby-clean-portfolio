@@ -27,7 +27,7 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <SEO
-          title="Carl-W Software Developer"
+          title="John Doe Software Developer"
           keywords={[
             `gatsby`,
             `application`,

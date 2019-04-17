@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Carl-W. Igelstroem - Software Developer`,
-    description: `Carl-Wilhelm Igelstroem Software Developer portfolio. At the moment I mainly focus on Front-End development using react.js and node.js.`,
+    title: `John Doe - Software Developer`,
+    description: `Add you meta Description here!`,
     url: "https://www.carlw.se",
     twitterUsername: "@real_carlw",
     author: `@real_carlw`,
@@ -31,7 +31,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         //Replace "UA-XXXXXXXXX-X" with your own Tracking ID
-        trackingId: "UA-50160729-4",
+        trackingId: "UA-XXXXXXXXX-X",
       },
     },
     `gatsby-plugin-react-helmet`,
