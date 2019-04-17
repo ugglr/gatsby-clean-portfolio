@@ -5,7 +5,7 @@ import "./projects.css"
 
 import ProjectCard from "../portProjectCard/ProjectCard"
 
-import image from "../../images/portfolio/16by9/boendekostnad.jpg"
+import image from "../../images/portfolio/cabin.png"
 
 const Projects = () => (
   <React.Fragment>
@@ -20,13 +20,13 @@ const Projects = () => (
       //hostedURL: URL to the hosted version of the app*/}
       <ProjectCard
         imageSrcPath={image}
-        title={"React Mortgage Calculator"}
+        title={"Cool React app"}
         date={"2019-03-28"}
         description={
-          "While I was buying my apartment in Sweden, I always made the calculations by hand because I could not find a calculator that gave the whole picture. Tools: create-react-app; Bootstrap4; Material-UI"
+          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. At impedit, provident esse adipisci ipsam accusamus. Vitae quae maiores quas beatae, quis cumque culpa itaque eveniet, vero nesciunt aspernatur odit optio."
         }
-        sourceURL={"https://github.com/ugglr/boendekostnad-nu"}
-        hostedURL={"http://www.boendekostnad.nu"}
+        sourceURL={"https://github.com/"}
+        hostedURL={"http://www.google.com"}
       />
       <Link to="/projects" className="blueViolet">
         Go to Projects page ---->
