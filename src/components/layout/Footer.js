@@ -11,14 +11,15 @@ const Footer = () => (
     <Container style={{ maxWidth: "960px" }}>
       <Row>
         <Col>
-          <h3>Carl-W. Igelstroem</h3>
+          <h3>John Doe</h3>
           <p style={{ color: "blueviolet", fontSize: "1.3rem" }}>
-            carl.igelstrom@gmail.com
+            {/*TODO: ADD A MAILTO-LINK */}
+            john.doe@gmail.com
           </p>
           <br />
           <p style={{ fontSize: "1.3rem" }}>
-            I'm a Swedish developer living in Hangzhou, China. I can help you
-            build and grow your next product
+            I'm a great developer that loves to code. I can help you grow your
+            next product.
           </p>
         </Col>
       </Row>
@@ -51,10 +52,13 @@ const Footer = () => (
           </Link>
         </Col>
       </Row>
+
+      {/* TODO: Make use of the SocialRow component to make the below icons obsolete */}
+
       <Row className="footer_social text-center">
         <Col>
           <a
-            href="https://www.github.com/ugglr"
+            href="https://www.github.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -63,7 +67,7 @@ const Footer = () => (
         </Col>
         <Col>
           <a
-            href="https://www.linkedin.com/in/igelstrom"
+            href="https://www.linkedin.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -72,7 +76,7 @@ const Footer = () => (
         </Col>
         <Col>
           <a
-            href="https://twitter.com/real_carlw"
+            href="https://twitter.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -82,7 +86,7 @@ const Footer = () => (
 
         <Col>
           <a
-            href="https://www.instagram.com/hangzhouist/"
+            href="https://www.instagram.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -93,7 +97,7 @@ const Footer = () => (
         <Col>
           <a
             className="hover_effect"
-            href="https://www.hackerrank.com/carl_igelstrom"
+            href="https://www.hackerrank.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -101,18 +105,14 @@ const Footer = () => (
           </a>
         </Col>
         <Col>
-          <a
-            href="https://angel.co/igelstroem"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://angel.co/" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-angellist hover_effect" />
           </a>
         </Col>
       </Row>
       <Row className="text-center" style={{ marginTop: "3rem" }}>
         <Col>
-          Carl-W.Igelstroem © {new Date().getFullYear()}, Built with
+          John Doe © {new Date().getFullYear()}, Built with
           <i
             className="fas fa-mug-hot"
             style={{

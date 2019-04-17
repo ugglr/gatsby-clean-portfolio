@@ -6,10 +6,9 @@ import ProjectCard from "../components/portProjectCard/ProjectCard"
 
 import "./index.css"
 
-import livingCalcPicture from "../images/portfolio/16by9/boendekostnad.jpg"
-import imageSearchAppPicture from "../images/portfolio/16by9/image-search.jpg"
-import weatherAppPicture from "../images/portfolio/16by9/weather-app.jpg"
-import saveTweetAppPicture from "../images/portfolio/16by9/save_tweet.jpg"
+import project1Picture from "../images/portfolio/cabin.png"
+import project2Picture from "../images/portfolio/cake.png"
+import project3Picture from "../images/portfolio/game.png"
 
 /*######### PROJECT OBJECTS TEMPLATE################
 import projectPicture from ""
@@ -23,51 +22,39 @@ const projectProject = {
 #####################################################
 */
 
-//Living Cost Calculator Project
+//TODO: Make this into an array with objects and map through them instead down below.
 
-const mortgageCalculatorProject = {
-  title: "React Mortgage Calculator",
+//Project 1
+
+const project1 = {
+  title: "Cool React app",
   date: "2019-03-28",
   decription:
-    "While I was buying my apartment in Sweden, I always made the calculations by hand because I could not find a calculator that gave the whole picture. Tools: create-react-app; Bootstrap4; Material-UI",
-  sourceURL: "https://github.com/ugglr/boendekostnad-nu",
-  hostedURL: "http://www.boendekostnad.nu",
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat enim amet voluptatum, aut quisquam a, veritatis dolores odit adipisci corrupti tenetur optio. Aliquam incidunt dolor laborum tempore officia obcaecati.",
+  sourceURL: "https://github.com",
+  hostedURL: "http://www.google.com",
 }
 
-//React Image-API search app Project
+//Project 2
 
-const imageSearchAppProject = {
-  title: "React Search image-API App",
+const project2 = {
+  title: "Project 2 title",
   date: "2019-03-03",
   decription:
-    "This app uses Axios to search Pixabay API for images, and displays them in a grid below. Also uses Material-UI pre-built components for some styling.",
-  sourceURL: "https://github.com/ugglr/React-Image-Search-API-app",
-  hostedURL:
-    "https://www.carlw.se/portfolioSites/react-image-search-app/index.html",
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat enim amet voluptatum, aut quisquam a, veritatis dolores odit adipisci corrupti tenetur optio. Aliquam incidunt dolor laborum tempore officia obcaecati.",
+  sourceURL: "https://github.com/",
+  hostedURL: "https://www.google.com",
 }
 
-//Weather app Project
+//Project 3
 
-const weatherAppProject = {
-  title: "React Weather-API App",
+const project3 = {
+  title: "Project 3 title",
   date: "2019-02-12",
   decription:
-    "This app uses async-await + fetch to grab weather data from openweathermap.org open API. Bootstrap 4 CSS classes are used for styling",
-  sourceURL: "https://github.com/ugglr/react-API-weather-app",
-  hostedURL: "https://www.carlw.se/portfolioSites/react-weather-app/index.html",
-}
-
-//Save Tweet app Project
-
-const saveTweetProject = {
-  title: "Vanilla JS Create-Read-Delete to Local Storage",
-  date: "2019-02-05",
-  decription:
-    "Vanilla Javascript application which saves & removes strings into/from the browsers Local Storage. Bootstrap CSS file is used for styling purposes.",
-  sourceURL:
-    "https://github.com/ugglr/JavaScript-Webapp-Read-Write-to-local-storage",
-  hostedURL:
-    "https://www.carlw.se/portfolioSites/JavaScript-Webapp-Read-Write-to-local-storage/index.html",
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat enim amet voluptatum, aut quisquam a, veritatis dolores odit adipisci corrupti tenetur optio. Aliquam incidunt dolor laborum tempore officia obcaecati.",
+  sourceURL: "https://github.com/",
+  hostedURL: "https://www.google.com",
 }
 
 export default () => (
@@ -79,11 +66,12 @@ export default () => (
     */}
       <MyJumbo
         title={"Projects Portfolio"}
-        body={
-          "I think the best way of learning is by getting down to coding and build. I really appreciate feedback on anything that I have built!"
-        }
+        body={"I think the best way of learning is by building Stuff."}
       />
       <hr />
+
+      {/* TODO: Move the project objects into an array and map through them below. DRY is better. */}
+
       <Container style={{ marginTop: "2.5rem" }}>
         {/*/Props: 
       //imageSrcPath: the path to the image used 
@@ -95,48 +83,36 @@ export default () => (
         <Row>
           <Col>
             <ProjectCard
-              imageSrcPath={livingCalcPicture}
-              title={mortgageCalculatorProject.title}
-              date={mortgageCalculatorProject.date}
-              description={mortgageCalculatorProject.decription}
-              sourceURL={mortgageCalculatorProject.sourceURL}
-              hostedURL={mortgageCalculatorProject.hostedURL}
+              imageSrcPath={project1Picture}
+              title={project1.title}
+              date={project1.date}
+              description={project1.decription}
+              sourceURL={project1.sourceURL}
+              hostedURL={project1.hostedURL}
             />
           </Col>
         </Row>
         <Row>
           <Col>
             <ProjectCard
-              imageSrcPath={imageSearchAppPicture}
-              title={imageSearchAppProject.title}
-              date={imageSearchAppProject.date}
-              description={imageSearchAppProject.decription}
-              sourceURL={imageSearchAppProject.sourceURL}
-              hostedURL={imageSearchAppProject.hostedURL}
+              imageSrcPath={project2Picture}
+              title={project2.title}
+              date={project2.date}
+              description={project2.decription}
+              sourceURL={project2.sourceURL}
+              hostedURL={project2.hostedURL}
             />
           </Col>
         </Row>
         <Row>
           <Col>
             <ProjectCard
-              imageSrcPath={weatherAppPicture}
-              title={weatherAppProject.title}
-              date={weatherAppProject.date}
-              description={weatherAppProject.decription}
-              sourceURL={weatherAppProject.sourceURL}
-              hostedURL={weatherAppProject.hostedURL}
-            />
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <ProjectCard
-              imageSrcPath={saveTweetAppPicture}
-              title={saveTweetProject.title}
-              date={saveTweetProject.date}
-              description={saveTweetProject.decription}
-              sourceURL={saveTweetProject.sourceURL}
-              hostedURL={saveTweetProject.hostedURL}
+              imageSrcPath={project3Picture}
+              title={project3.title}
+              date={project3.date}
+              description={project3.decription}
+              sourceURL={project3.sourceURL}
+              hostedURL={project3.hostedURL}
             />
           </Col>
         </Row>

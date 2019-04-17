@@ -18,7 +18,7 @@ export default () => (
         body={
           "So you are looking for a professional, communicative & punctual software engineer who likes to keep productive."
         }
-        body2={"I also speak pretty good Mandarin if that's... needed."}
+        body2={"I can also do this cool thing if that's... needed."}
         title={"tldr; About me."}
       />
       <hr />
@@ -35,6 +35,7 @@ export default () => (
         <Row>
           <Col>
             <h5>I love Coffee. I mean, more than people normaly like coffee</h5>
+            <br />
             <p>
               I'm a Software Engineer building noice Websites on the internet.
               <br />
