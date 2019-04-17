@@ -20,7 +20,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     ```sh
     # create a new Gatsby site using the clean-portfolio starter
-    gatsby new my-hello-world-starter https://github.com/gatsbyjs/gatsby-starter-hello-world
+    gatsby new my-portfolio-starter https://github.com/ugglr/gatsby-clean-portfolio
     ```
 
 1.  **Start developing.**
@@ -28,7 +28,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     Navigate into your new site’s directory and start it up.
 
     ```sh
-    cd my-hello-world-starter/
+    cd my-portfolio-starter/
     gatsby develop
     ```
 
