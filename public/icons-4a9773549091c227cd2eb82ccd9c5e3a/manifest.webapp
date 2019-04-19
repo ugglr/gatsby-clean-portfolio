@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "name": "gatsby-clean-portfolio",
+  "description": null,
+  "icons": {
+    "60": "/icons-4a9773549091c227cd2eb82ccd9c5e3a/firefox_app_60x60.png",
+    "128": "/icons-4a9773549091c227cd2eb82ccd9c5e3a/firefox_app_128x128.png",
+    "512": "/icons-4a9773549091c227cd2eb82ccd9c5e3a/firefox_app_512x512.png"
+  },
+  "developer": {
+    "name": null,
+    "url": null
+  }
+}
